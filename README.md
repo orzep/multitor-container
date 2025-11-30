@@ -1,5 +1,11 @@
 #Multitor container
 
+
+### Project creates docker image of [`multitor`](https://github.com/trimstray/multitor) based on Debian 13 container
+
+#### This branch fakes installation of polipo and hpts, so image can weight less. It uses only `privoxy` and `haproxy`
+
+
 ## 1. Build image
 
 ```bash
