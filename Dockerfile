@@ -15,6 +15,8 @@ RUN ln -sf /bin/true /usr/local/bin/polipo
 COPY ./runmt .
 #RUN chown -R debian-tor /var/lib/multitor
 ENV TOR_INSTANCES=2
+ENV MT_SOCKS_PORT=9000
+ENV MT_CTRL_PORT=9900
 #CMD ["/bin/bash"]
 #EXPOSE 16379
 CMD ["/bin/bash", "/opt/runmt"]
