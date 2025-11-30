@@ -34,8 +34,16 @@ docker run -e "TOR_INSTANCES=4" -dt --rm --name multitor --publish 16379:16379 m
 
 ## 3. Test 
 
+### 3.1 HTTP Proxy
+
 ```bash
 curl --proxy 127.0.0.1:16379 icanazip.com
+```
+
+### 3.2 SOCKS Proxy
+
+```bash
+curl --socks5 127.0.0.1:16379 icanhazip.com
 ```
 
 ## 4. Stop
