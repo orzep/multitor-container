@@ -1,0 +1,3 @@
+#!/bin/bash
+multitor --init "$TOR_INSTANCES" --user debian-tor --socks-port 9000 --control-port 9900 --proxy privoxy --haproxy
+/bin/bash
