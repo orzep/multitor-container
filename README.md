@@ -2,6 +2,8 @@
 
 ### Project creates docker image of [`multitor`](https://github.com/trimstray/multitor) based on Debian 13 container
 
+#### If you want smaller image use [`privoxy-only`](https://github.com/orzep/multitor-container/tree/privoxy-only) branch
+
 ## 1. Build image
 
 ```bash
