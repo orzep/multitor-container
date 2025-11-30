@@ -29,7 +29,7 @@ docker run -e "TOR_INSTANCES=4" -dt --rm --name multitor --publish 16379:16379 m
 - `TOR_INSTANCES`  - set number of instanes here (default: 2)
 - `MT_SOCKS_PORT`  - set socks port (default: 9000)
 - `MT_CTRL_PORT`   - set tor control port (default: 9900)
-- `MT_PROXY        - set proxy type (`privoxy`, `polipo`, `hpts`, default: `privoxy`) 
+- `MT_PROXY`       - set proxy type (`privoxy`, `polipo`, `hpts`, default: `privoxy`) 
 - `MT_USE_HAPROXY` - set to 1 to use haproxy (default: 1)
 
 ## 3. Test 
